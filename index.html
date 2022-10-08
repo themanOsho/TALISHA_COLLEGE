@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header class="w3-container w3-blue"><!-- Opening DIV for header -->
-        <div id="top" class="w3-center">
-            <div class="w3-bar w3-hide-large w3-tiny">
+    <header class="w3-blue"><!-- Opening DIV for header -->
+        <div id="top" class="w3-container w3-center">
+            <div class="w3-bar w3-hide-large w3-tiny"><!-- Show on Small & Medium Screens -->
                 <a class="w3-bar-item w3-button w3-hover-none" href="tel: +23490 4978 9099"><img
                     src="icons/icons8-phone-20.png"> +234 904 978 8099</a>
                 <a class="w3-bar-item w3-button w3-hover-none" href="sms: tlkjorsh@icloud.com">info@talishacollege.edu.ng <img
                     src="icons/icons8-mail-20.png" alt=""></a>
             </div>
-            <div class="w3-bar w3-hide-small w3-hide-medium">
+            <div class="w3-bar w3-hide-small w3-hide-medium"><!-- Show on Large Screens -->
                 <a class="w3-bar-item w3-button w3-hover-none" href="tel: +23490 4978 9099"><img
                     src="icons/icons8-phone-20.png"> +234 904 978 8099</a><span class="w3-bar-item">|</span>
                 <a class="w3-bar-item w3-button w3-hover-none" href="sms: tlkjorsh@icloud.com"><img
@@ -30,6 +30,121 @@
                 <a class="w3-bar-item w3-button w3-hover-none" href="#">22/23 Academic Calender <img
                     src="icons/icons8-calendar-20.png" alt=""></a>
             </div>
+        </div>
+        <div id="header">
+            <div class="w3-container w3-hide-large"><!-- Show on Small & Medium Screens -->
+                <div style="display: flex;">
+                    <div>
+                            <img style="width: 100%; height: 100px;" src="images/logo_blue.png">
+                    </div>
+                    <div class="w3-display-container">
+                            <h3 class="w3-text-blue w3-xlarge w3-display-left"
+                                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: auto;">
+                                    TALISHA<br>COLLEGE</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-display-middle w3-hide-large" style="margin-top: 4px; margin-left: 20%;"><!-- Search -->
+                <form action="#" class="w3-bar w3-leftbar w3-border-blue w3-right">
+                        <div><input class="w3-input w3-text-blue w3-border-0 w3-mobile w3-bar-item" type="text"
+                                        placeholder="Search.." name="search"></div>
+                </form>
+            </div>
+            <button class="w3-button w3-display-right w3-xxlarge w3-hide-large w3-hover-none"
+                        onclick="w3_open()"><span style="color: rgb(133, 133, 247);">&#9776;</span></button>
+                <!-- Sidebar -->
+                <div class="w3-sidebar w3-container w3-bar-block w3-collapse w3-text-blue w3-animate-right"
+                        style="width: 55%;right:0; top:0%; z-index:5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+                        id="mySidebar">
+                        <button class="w3-bar-item w3-button w3-xlarge w3-hide-medium w3-hide-large w3-hover-blue"
+                                onclick="w3_close()">Close &times;</button><br>
+                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">PARENTS <img
+                                        src="icons/icons8-add-link-20.png" alt=""></a>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <a href="stud-login.html" class="w3-bar-item w3-btn w3-hover-none">STUDENTS LOGIN</a>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <a href="admissions.html" class="w3-bar-item w3-btn w3-hover-none">NEW APPLICANTS</a>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <!-- Acording Buttons -->
+                        <button class="accordion w3-bar-item w3-hover-blue">THE COLLEGE</button>
+                        <div class="panel">
+                                <a href="about-us.html" class="w3-bar-item w3-btn w3-hover-none">ABOUT US</a>
+                                <a href="history.html" class="w3-bar-item w3-btn w3-hover-none">HISTORY</a>
+                        </div>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">ACADEMICS</a>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <button class="accordion w3-bar-item w3-hover-blue">ADMISSIONS</button>
+                        <div class="panel">
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">SUMMER SCHOOL</a>
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">ENTR. EDUCATION</a>
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">JUNIOR HIGH SCHOOL ADMISSIONS</a>
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">SENIOR HIGH SCHOOL ADMISSIONS</a>
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">CONTINUING EDUCATION</a>
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">INT'L SCHOOL ADMISSIONS</a>
+                        </div>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <button class="accordion w3-bar-item w3-hover-blue">ENTR. EDUCATION</button>
+                        <div class="panel">
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">VIEW AVAILABLE PROGRAMS</a>
+                        </div>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">GIVE TALISHA COLLEGE</a>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <button class="accordion w3-bar-item w3-hover-blue">REACH US</button>
+                        <div class="panel">
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">SEND US A MESSAGE</a>
+                        </div>
+                        <hr class="w3-blue" style="height: 1px;">
+                        <div class="w3-card-4 w3-container">
+                                <a href="#" class="w3-btn w3-hover-none">FOLLOW US</a>
+                                <img src="icons/gif/icons8-facebook-circled.gif" alt="" style="width: 10%;">
+                                <img src="icons/gif/icons8-twitter-circled.gif" alt="" style="width: 10%;">
+                                <img src="icons/gif/icons8-linkedin-circled.gif" alt="" style="width: 10%;">
+                        </div>
+
+                        <div style="width: 20%; margin-left: 20px; display: flex;">
+                                <div>
+                                        <img style=" width: 100px; height: 100px;" src="images/logo_blue.png">
+                                </div>
+                                <div class="w3-display-container">
+                                        <h3 class="w3-text-blue w3-xlarge w3-display-left"
+                                                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: auto;">
+                                                TALISHA<br>COLLEGE</h3>
+                                </div>
+                        </div>
+                </div>
+                <!--Script for Accoridng inside sidebar-->
+                <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+
+                        for (i = 0; i < acc.length; i++) {
+                                acc[i].addEventListener("click", function () {
+                                        this.classList.toggle("active");
+                                        var panel = this.nextElementSibling;
+                                        if (panel.style.maxHeight) {
+                                                panel.style.maxHeight = null;
+                                        } else {
+                                                panel.style.maxHeight = panel.scrollHeight + "px";
+                                        }
+                                });
+                        }
+                </script>
+                <!--Script for Sidebar Open & Close-->
+                <script>
+                        function w3_open() {
+                                document.getElementById("mySidebar").style.display = "block";
+                                document.getElementById("myOverlay").style.display = "block";
+                        }
+                        function w3_close() {
+                                document.getElementById("mySidebar").style.display = "none";
+                                document.getElementById("myOverlay").style.display = "none";
+                        }
+                </script>
+                <!-- Overlay -->
+                <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+                </div>
         </div>
     </header><!-- Closing DIV for header -->
 </body>
