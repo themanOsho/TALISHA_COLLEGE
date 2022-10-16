@@ -29,7 +29,6 @@
 /* According CSS inside Sidebar*/
 .accordion {
     background-color: white;
-    color: rgb(140, 140, 255);
     cursor: pointer;
     outline: none;
     transition: 0.4s;
