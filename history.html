@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Talisha College - Best education that suits your child</title>
+        <link rel="icon" href="images/logo_blue.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/4/w3.css">
+        <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="w3-blue">
+        <!-- Opening DIV for header -->
+        <div id="top" class="w3-container w3-center">
+                <div class="w3-bar w3-hide-large w3-tiny">
+                        <!-- Show on Small & Medium Screens -->
+                        <a class="w3-bar-item w3-button w3-hover-none" href="tel: +23490 4978 9099"><img
+                                        src="icons/icons8-phone-20.png"> +234 904 978 8099</a>
+                        <a class="w3-bar-item w3-button w3-hover-none"
+                                href="sms: tlkjorsh@icloud.com">info@talishacollege.edu.ng <img
+                                        src="icons/icons8-mail-20.png" alt=""></a>
+                </div>
+                <div class="w3-bar w3-hide-small w3-hide-medium">
+                        <!-- Show on Large Screens -->
+                        <a class="w3-bar-item w3-button w3-hover-none" href="tel: +23490 4978 9099"><img
+                                        src="icons/icons8-phone-20.png"> +234 904 978 8099</a><span
+                                class="w3-bar-item">|</span>
+                        <a class="w3-bar-item w3-button w3-hover-none" href="sms: tlkjorsh@icloud.com"><img
+                                        src="icons/icons8-mail-20.png" alt="">
+                                info@talishacollege.edu.ng</a><span class="w3-bar-item">|</span>
+                        <a class="w3-bar-item w3-button w3-hover-none" href="stud-login.html">Student Login <img
+                                        src="icons/icons8-login-20.png" alt=""></a><span
+                                class="w3-bar-item">|</span>
+                        <a class="w3-bar-item w3-button w3-hover-none" href="admissions.html">New Applicants
+                                <img src="icons/icons8-add-link-20.png" alt=""></a><span
+                                class="w3-bar-item">|</span>
+                        <a class="w3-bar-item w3-button w3-hover-none" href="#">22/23 Academic Calender <img
+                                        src="icons/icons8-calendar-20.png" alt=""></a>
+                </div>
+        </div><!-- Closing Div for top -->
+        <div id="header">
+                <!-- Show on Small & Medium Screens -->
+                <div class="w3-hide-large">
+                        <div class="w3-container w3-hide-large">
+                                <div style="max-width: 20%; display: flex; ">
+                                        <div style="padding-top: 12px;">
+                                                <img style=" width: 75px; height: 75px;"
+                                                        src="images/logo_blue.png">
+                                        </div>
+                                        <div class="w3-display-container" style="padding-top: 100px;">
+                                                <h3 class="w3-text-blue w3-display-left w3-small"
+                                                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: auto;">
+                                                        TALISHA<br>COLLEGE</h3>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="w3-display-middle w3-hide-large" style="margin-top: 2px; margin-left: 20%;">
+                                <!-- Search -->
+                                <form action="#" class="w3-bar w3-leftbar w3-border-blue w3-right">
+                                        <div><input class="w3-input w3-text-blue w3-border-0 w3-mobile w3-bar-item"
+                                                        type="text" placeholder="Search.." name="search"></div>
+                                </form>
+                        </div>
+                        <button class="w3-button w3-display-right w3-xxlarge w3-hide-large w3-hover-none"
+                                onclick="w3_open()"><span class="w3-text-blue">&#9776;</span></button>
+                        <!-- Sidebar -->
+                        <div class="w3-sidebar w3-container w3-bar-block w3-hide-large w3-collapse w3-text-blue w3-animate-right"
+                                style="width: 60%;right:0; top:0%; z-index:5; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"
+                                id="mySidebar">
+                                <button class="w3-bar-item w3-button w3-xlarge w3-hide-medium w3-hide-large w3-hover-blue"
+                                        onclick="w3_close()">Close &times;</button><br>
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">PARENTS <img
+                                                src="icons/icons8-add-link-20.png" alt=""></a>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <a href="stud-login.html" class="w3-bar-item w3-btn w3-hover-none">STUDENTS
+                                        LOGIN</a>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <a href="admissions.html" class="w3-bar-item w3-btn w3-hover-none">NEW
+                                        APPLICANTS</a>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <!-- Acording Buttons -->
+                                <button class="accordion w3-bar-item w3-text-blue w3-hover-blue">THE COLLEGE</button>
+                                <div class="panel">
+                                        <a href="about-us.html" class="w3-bar-item w3-btn w3-hover-none">ABOUT
+                                                US</a>
+                                        <a href="history.html"
+                                                class="w3-bar-item w3-btn w3-hover-none">HISTORY</a>
+                                </div>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">ACADEMICS</a>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <button class="accordion w3-bar-item w3-text-blue w3-hover-blue">ADMISSIONS</button>
+                                <div class="panel">
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">SUMMER SCHOOL</a>
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">ENTR. EDUCATION</a>
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">JUNIOR HIGH SCHOOL
+                                                ADMISSIONS</a>
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">SENIOR HIGH SCHOOL
+                                                ADMISSIONS</a>
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">CONTINUING
+                                                EDUCATION</a>
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">INT'L SCHOOL
+                                                ADMISSIONS</a>
+                                </div>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <button class="accordion w3-bar-item w3-text-blue w3-hover-blue">ENTR. EDUCATION</button>
+                                <div class="panel">
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">VIEW AVAILABLE
+                                                PROGRAMS</a>
+                                </div>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <a href="#" class="w3-bar-item w3-btn w3-hover-none">GIVE TALISHA COLLEGE</a>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <button class="accordion w3-bar-item w3-text-blue w3-hover-blue">REACH US</button>
+                                <div class="panel">
+                                        <a href="#" class="w3-bar-item w3-btn w3-hover-none">SEND US A
+                                                MESSAGE</a>
+                                </div>
+                                <hr class="w3-blue" style="height: 1px;">
+                                <div class="w3-card-4 w3-container w3-small">
+                                        <a href="#" class="w3-btn w3-hover-none">FOLLOW US</a>
+                                        <img src="icons/gif/icons8-facebook-circled.gif" alt=""
+                                                style="width: 10%;">
+                                        <img src="icons/gif/icons8-twitter-circled.gif" alt=""
+                                                style="width: 10%;">
+                                        <img src="icons/gif/icons8-linkedin-circled.gif" alt=""
+                                                style="width: 10%;">
+                                </div>
+                                <div class="w3-container" style="display: flex;">
+                                        <div style="padding-top: 12px;">
+                                                <img style=" width: 75px; height: 75px;"
+                                                        src="images/logo_blue.png">
+                                        </div>
+                                        <div class="w3-display-container" style="padding-top: 100px;">
+                                                <h3 class="w3-text-blue w3-display-left w3-large"
+                                                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: auto;">
+                                                        TALISHA<br>COLLEGE</h3>
+                                        </div>
+                                </div>
+                        </div>
+                        <!--Script for Accoridng inside sidebar-->
+                        <script>
+                                var acc = document.getElementsByClassName("accordion");
+                                var i;
+
+                                for (i = 0; i < acc.length; i++) {
+                                        acc[i].addEventListener("click", function () {
+                                                this.classList.toggle("active");
+                                                var panel = this.nextElementSibling;
+                                                if (panel.style.maxHeight) {
+                                                        panel.style.maxHeight = null;
+                                                } else {
+                                                        panel.style.maxHeight = panel.scrollHeight + "px";
+                                                }
+                                        });
+                                }
+                        </script>
+                        <!--Script for Sidebar Open & Close-->
+                        <script>
+                                function w3_open() {
+                                        document.getElementById("mySidebar").style.display = "block";
+                                        document.getElementById("myOverlay").style.display = "block";
+                                }
+                                function w3_close() {
+                                        document.getElementById("mySidebar").style.display = "none";
+                                        document.getElementById("myOverlay").style.display = "none";
+                                }
+                        </script>
+                        <!-- Overlay -->
+                        <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+                                id="myOverlay">
+                        </div>
+                </div>
+                <!-- Show on Large Screens only -->
+                <div id="head" class="w3-hide-small w3-hide-medium" style="width: 100%;">
+                        <div style="margin-left: 25px; display: flex;">
+                                <div>
+                                        <img style=" width: 100px; height: 100px;" src="images/logo_blue.png">
+                                </div>
+                                <div class="w3-display-container" style="margin-left: 5px;">
+                                        <h3 class="w3-text-blue w3-xlarge w3-display-left"
+                                                style="color: rgb(3, 3, 70); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: auto;">
+                                                TALISHA<br>COLLEGE</h3>
+                                </div>
+                        </div>
+                        <div id="drp">
+                                <div class="w3-bar-item w3-dropdown-hover">
+                                        <button
+                                                class="w3-bar-item w3-button w3-white w3-hover-white w3-border-white w3-topbar w3-hover-border-blue w3-hover-text-blue w3-text-blue">THE
+                                                COLLEGE</button>
+                                        <div id="n001"
+                                                class="w3-dropdown-content w3-display-container w3-round-xlarge w3-animate-zoom w3-light-gray w3-bottombar w3-border-blue">
+                                                <div class="w3-padding">
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 350px; height:400px;">
+                                                                <div style="margin-top: 40px;">
+                                                                        <h2>About Us</h2>
+                                                                        <p>Founded in 2010, Talisha College is a
+                                                                                leading
+                                                                                school dedicated to quality
+                                                                                teaching, learning
+                                                                                and instilling morality in our
+                                                                                students' lives.
+                                                                        </p>
+                                                                        <br><br><br>
+                                                                        <a class="w3-btn w3-bottomleft w3-hover-blue"
+                                                                                href="about-us.html">About
+                                                                                Us</a>
+                                                                </div>
+
+                                                        </div>
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 650px; padding-top: 0;">
+                                                                <h5 class="w3-topleft"
+                                                                        style="padding-left: 10px;">About Us
+                                                                </h5>
+                                                                <hr class="w3-blue" style=" height:3px;">
+                                                                <div class="w3-bar-block">
+                                                                        <a href="history.html"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue">History</a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <img class="w3-display-bottomright" style="width: 15% ;"
+                                                        src="images/logo_blue.png" alt="College Logo">
+                                        </div>
+                                </div>
+                                <div class="w3-bar-item w3-dropdown-hover">
+                                        <button
+                                                class="w3-bar-item w3-button w3-white w3-hover-white w3-border-white w3-topbar w3-hover-border-blue w3-hover-text-blue w3-text-blue">ACADEMICS</button>
+                                        <div id="n001"
+                                                class="w3-dropdown-content w3-display-container w3-round-xlarge w3-animate-zoom w3-light-gray w3-bottombar w3-border-blue">
+                                                <div class="w3-padding">
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 350px; height:400px;">
+                                                                <div style="margin-top: 40px;">
+                                                                        <h2>Academics</h2>
+                                                                        <p> Our academic programs are rigorous
+                                                                                and
+                                                                                carefully modelled to prepare
+                                                                                our students to be
+                                                                                ahead.
+                                                                        </p>
+                                                                        <br><br><br>
+                                                                        <a class="w3-btn w3-bottomleft w3-hover-blue"
+                                                                                href="#academics">Academics</a>
+                                                                </div>
+
+                                                        </div>
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 650px; padding-top: 0;">
+                                                                <div style="display: flex; column-gap: 30px;">
+                                                                        <div class="w3-small">
+                                                                                <h4 class="w3-large">Junior High
+                                                                                        School</h4>
+                                                                                <hr class="w3-blue"
+                                                                                        style=" height:3px;">
+                                                                                <div class="w3-bar-block">
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">JHS
+                                                                                                I</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">JHS
+                                                                                                II</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">JHS
+                                                                                                III</a>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="w3-small">
+                                                                                <h4 class="w3-large">Senior High
+                                                                                        School</h4>
+                                                                                <hr class="w3-blue"
+                                                                                        style=" height:3px;">
+                                                                                <div class="w3-bar-block">
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">Department
+                                                                                                of Arts</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">Department
+                                                                                                of Science</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">Department
+                                                                                                of
+                                                                                                Commercial</a>
+                                                                                </div><br> <br>
+                                                                                <h4 class="w3-large">Continuing
+                                                                                        Education</h4>
+                                                                                <hr class="w3-blue"
+                                                                                        style=" height:3px;">
+                                                                                <div class="w3-bar-block">
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">W.A.E.C.
+                                                                                                / G.C.E.</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">U.T.M.E.</a>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="w3-small">
+                                                                                <h4 class="w3-large">
+                                                                                        International School
+                                                                                </h4>
+                                                                                <hr class="w3-blue"
+                                                                                        style=" height:3px;">
+                                                                                <div class="w3-bar-block">
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">Sciences</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">Educational
+                                                                                                Technology</a>
+                                                                                        <a href="#"
+                                                                                                class="w3-bar-item w3-btn w3-hover-blue">Arts
+                                                                                                Education</a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <img class="w3-display-bottomright" style="width: 15% ;"
+                                                        src="images/logo_blue.png" alt="College Logo">
+                                        </div>
+                                </div>
+                                <div class="w3-bar-item w3-dropdown-hover">
+                                        <button
+                                                class="w3-bar-item w3-button w3-white w3-hover-white w3-border-white w3-topbar w3-hover-border-blue w3-hover-text-blue w3-text-blue">ADMISSIONS</button>
+                                        <div id="n001"
+                                                class="w3-dropdown-content w3-display-container w3-round-xlarge w3-animate-zoom w3-light-gray w3-bottombar w3-border-blue">
+                                                <div class="w3-padding">
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 500px; height:400px;">
+                                                                <div style="margin-top: 40px;">
+                                                                        <h2>Admissions</h2>
+                                                                        <p>Since 2010, Talisha College has a
+                                                                                proud history
+                                                                                of attracting intelligent,
+                                                                                competitive students
+                                                                                and empowering each of
+                                                                                them to reach their full
+                                                                                potential. We are
+                                                                                committed to intellectual
+                                                                                leadership, collaboration, and
+                                                                                the highest moral
+                                                                                standards, innovative research,
+                                                                                and a winning
+                                                                                attitude
+                                                                                in academics, athletics, and
+                                                                                other areas every
+                                                                                other aspect of life.
+                                                                                Come see why Talisha College is
+                                                                                the college of
+                                                                                choice and excellence.</p><br>
+
+                                                                        <a class="w3-btn w3-bottomleft w3-hover-blue"
+                                                                                href="admissions.html">Admissions</a>
+                                                                </div>
+
+                                                        </div>
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 500px; padding-top: 0;">
+                                                                <h5 class="w3-topleft"
+                                                                        style="padding-left: 10px;">Admissions
+                                                                </h5>
+                                                                <hr class="w3-blue" style=" height:3px;">
+                                                                <div class="w3-bar-block">
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue">Junior
+                                                                                High School</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue">Senior
+                                                                                High School</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue">International
+                                                                                Student</a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <img class="w3-display-bottomright" style="width: 15% ;"
+                                                        src="images/logo_blue.png" alt="College Logo">
+                                        </div>
+                                </div>
+                                <div class="w3-bar-item w3-dropdown-hover">
+                                        <button
+                                                class="w3-bar-item w3-button w3-white w3-hover-white w3-border-white w3-topbar w3-hover-border-blue w3-hover-text-blue w3-text-blue">ENTR.
+                                                EDUCATION</button>
+                                        <div id="n001"
+                                                class="w3-dropdown-content w3-display-container w3-round-xlarge w3-animate-zoom w3-light-gray w3-bottombar w3-border-blue">
+                                                <div class="w3-padding">
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 500px; height:400px;">
+                                                                <div style="margin-top: 40px;">
+                                                                        <h2>Entrepreneurship Education</h2>
+                                                                        <p>The school entrepreneurship studies
+                                                                                is established
+                                                                                to provide high quality
+                                                                                education and skills
+                                                                                necessary for students to fit
+                                                                                into our
+                                                                                ever changing environment, both
+                                                                                nationally and
+                                                                                globally. Lariken International
+                                                                                College is the
+                                                                                ideal place to plan your
+                                                                                academic journey. We
+                                                                                encourage you to ride on the
+                                                                                back of an expert
+                                                                        </p><br>
+
+                                                                        <a class="w3-btn w3-bottomleft w3-hover-blue"
+                                                                                href="#">Entr. Education</a>
+                                                                </div>
+                                                        </div>
+                                                        <div class="w3-container w3-cell"
+                                                                style="width: 500px; padding-top: 0;">
+                                                                <h5 class="w3-topleft"
+                                                                        style="padding-left: 10px;">Programs
+                                                                </h5>
+                                                                <hr class="w3-blue" style=" height:3px;">
+                                                                <div class="w3-bar-block">
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Desktop
+                                                                                Pulishing</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Fashion
+                                                                                Designing</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Catering</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Music</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Stage
+                                                                                Drama</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Event
+                                                                                Decoration</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Plumbing</a>
+                                                                        <a href="#"
+                                                                                class="w3-bar-item w3-btn w3-hover-blue w3-small">Hair
+                                                                                Dressing</a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <img class="w3-display-bottomright" style="width: 15% ;"
+                                                        src="images/logo_blue.png" alt="College Logo">
+                                        </div>
+                                </div>
+                                <div class="w3-bar-item w3-dropdown-hover">
+                                        <button
+                                                class="w3-bar-item w3-button w3-white w3-hover-white w3-border-white w3-topbar w3-hover-border-blue w3-hover-text-blue w3-text-blue">REACH
+                                                US</button>
+                                </div>
+                        </div>
+                        <div class="w3-display-container" style="margin-top: 25px; margin-left: 6%;">
+                                <form action="#" class="w3-bar w3-leftbar w3-border-blue w3-right">
+                                        <div><input class="w3-input w3-text-blue w3-border-0 w3-mobile w3-bar-item"
+                                                        type="text" placeholder="Search.." name="search"></div>
+                                </form>
+                        </div>
+                </div>
+        </div>
+</header><!-- Closing DIV for header -->
+
+</body>
+</html>
